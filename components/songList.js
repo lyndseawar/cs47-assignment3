@@ -19,7 +19,7 @@ const SongList = ({ tracks }) => {
             <View style={styles.numberContainer}>
               <Text style={styles.number}>{index + 1}</Text>
             </View>
-                <Image style={styles.albumCover} source={{uri: item.imageUrl }} />
+            <Image style={styles.albumCover} source={{ uri: item.imageUrl }} />
             <View style={styles.songInfoContainer}>
               <Text numberOfLines={1} style={styles.songListText}>
                 {item.songTitle}
