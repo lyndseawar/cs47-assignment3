@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
   },
   authText: {
     color: "white",
+    fontWeight: "bold",
   },
   logo: {
     width: 18,
